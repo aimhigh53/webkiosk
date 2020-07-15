@@ -1,0 +1,1317 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>menu_hamburger1.html</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- JS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+          media="all">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' type='text/javascript'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<style>
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background: #e3e3e3;
+        position: relative;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        color: #292929;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+    }
+
+    nav ul li:hover {
+        background: lightgrey;
+    }
+
+    nav ul ul {
+        position: absolute;
+        min-width: 200px;
+        background: lightgrey;
+        display: none;
+    }
+
+    nav ul ul li {
+        display: block;
+        background: #e3e3e3;
+    }
+
+    nav ul li:hover ul {
+        display: block;
+    }
+
+    nav ul li i {
+        color: #292929;
+        float: right;
+        padding-left: 20px;
+    }
+
+    nav div {
+        background: lightgrey;
+        color: #292929;
+        font-size: 24px;
+        padding: 0.6em;
+        cursor: pointer;
+        display: none;
+    }
+
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        body {
+            margin-left: none;
+            margin-right: none;
+            font-family: "배달의민족 한나는 열한살";
+
+        }
+    }
+
+
+
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+
+        .container {
+            height: 1200px;
+        }
+
+    }
+
+
+    .btn-border {
+        border-radius: 30px;
+        border: 50px;
+        height: 70px;
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .mainbtn {
+        height: 1200px;
+    }
+
+
+
+    /* table {
+      width: 100%;
+      border: 1px solid #000000;
+  }
+*/
+    table tbody>td {
+        border: 1px solid #000000;
+        text-align: center;
+    }
+
+    thead>th {
+        border: 1px solid #000000;
+        text-align: center;
+    }
+
+    tr {
+        text-align: center;
+    }
+
+    td {
+        width: 25%;
+        height: 25%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .pagination {
+        justify-content: center;
+    }
+
+
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .navbar {
+            background-color: #EEEEF0;
+            opacity: 0.5;
+        }
+    }
+
+
+    /* Navigation links */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+
+        }
+    }
+
+
+    /* The subnavigation menu */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .subnav {
+            float: left;
+            overflow: hidden;
+        }
+    }
+
+
+    /* Subnav button */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .subnav .subnavbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: rgb(0, 0, 0);
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+    }
+
+
+    /* Add a red background color to navigation links on hover */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+
+        .navbar a:hover,
+        .subnav:hover .subnavbtn {
+            background-color: #28C35E;
+        }
+
+    }
+
+    /* Style the subnav content - positioned absolute */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .subnav-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            background-color: #28C35E;
+            width: 100%;
+            z-index: 1;
+        }
+    }
+
+
+    /* Style the subnav links */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .subnav-content a {
+            float: left;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+
+    /* Add a grey background color on hover */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .subnav-content a:hover {
+            background-color: #eee;
+            color: black;
+        }
+
+    }
+
+    /* When you move the mouse over the subnav container, open the subnav content */
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .subnav:hover .subnav-content {
+            display: block;
+        }
+    }
+
+@@media only screen and(min-device-width: 768px) and (max-device-width:1024px){
+  h4 {
+      color: orange;
+  }
+ }
+
+    h2 {
+        color: orange;
+    }
+
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+
+        #burg1,
+        #burg2,
+        #burg3,
+        #burg4,
+        #burg5,
+        #burg6,
+        #burg7,
+        #burg8,
+        #burg9 {
+            padding: 0;
+            border: none;
+            background: none;
+            width: 250px;
+            height: 25px;
+        }
+    }
+
+    *,
+    *::before,
+    *::after {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: -webkit-gradient(linear, left top, right top, from(#16a085), to(#f4d03f));
+        background: linear-gradient(90deg, #16a085, #f4d03f);
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        height: 100vh;
+    }
+
+    .menu ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu ol:first-child {
+        width: 100%;
+        max-width: 960px;
+        margin: 1rem auto 0 auto;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .menu-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-top: 2px solid #16a085;
+        position: relative;
+        -webkit-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+    }
+
+    .menu-item:nth-child(1)>a::before {
+        content: "\f015";
+    }
+
+    .menu-item:nth-child(2)>a::before {
+        content: "\f805";
+    }
+
+    .menu-item:nth-child(3)>a::before {
+        content: "\f2e7";
+    }
+
+    .menu-item:nth-child(4)>a::before {
+        content: "\f7b6";
+    }
+
+    .menu-item:nth-child(5)>a::before {
+        content: "\f164"
+    }
+
+    .menu-item:nth-child(1)>a::before {
+        font-family: "Font Awesome 5 Free";
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: 900;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        color: #16a085;
+    }
+
+    @@media (min-width: 768px) {
+        .menu-item:nth-child(1)>a::before {
+            font-size: 1.5rem;
+        }
+    }
+
+    .menu-item:nth-child(2)>a::before {
+        font-family: "Font Awesome 5 Free";
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: 900;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        color: #16a085;
+    }
+
+    @@media (min-width: 768px) {
+        .menu-item:nth-child(2)>a::before {
+            font-size: 1.5rem;
+        }
+    }
+
+    .menu-item:nth-child(3)>a::before {
+        font-family: "Font Awesome 5 Free";
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: 900;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        color: #16a085;
+    }
+
+    @@media (min-width: 768px) {
+        .menu-item:nth-child(3)>a::before {
+            font-size: 1.5rem;
+        }
+    }
+
+    .menu-item:nth-child(4)>a::before {
+        font-family: "Font Awesome 5 Free";
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: 900;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        color: #16a085;
+    }
+
+    @@media (min-width: 768px) {
+        .menu-item:nth-child(4)>a::before {
+            font-size: 1.5rem;
+        }
+    }
+
+    .menu-item:nth-child(5)>a::before {
+        font-family: "Font Awesome 5 Free";
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: 900;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        color: #16a085;
+    }
+
+    @@media (min-width: 768px) {
+        .menu-item:nth-child(5)>a::before {
+            font-size: 1.5rem;
+        }
+    }
+
+    .menu-item .sub-menu>a {
+        color: red;
+    }
+
+    .menu-item:not(:last-child) {
+        border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .menu-item .sub-menu {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        -webkit-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+        -webkit-transition: -webkit-transform 0.3s linear;
+        transition: -webkit-transform 0.3s linear;
+        transition: transform 0.3s linear;
+        transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+        background-color: #f4d03f;
+    }
+
+    .menu-item .sub-menu .menu-item {
+        border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .menu-item .sub-menu .menu-item a::before {
+        content: "";
+    }
+
+    .menu-item .sub-menu .menu-item:first-child {
+        border: 0;
+    }
+
+    .menu-item:hover,
+    .menu-item.active {
+        border-top: 2px solid #f4d03f;
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .menu-item:hover a::before,
+    .menu-item.active a::before {
+        color: white;
+    }
+
+    .menu-item:hover .sub-menu {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+    }
+
+    .menu-item a {
+        font-size: 0.8rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        height: 100%;
+        width: 100%;
+        padding: 1.5em 1em;
+    }
+
+    @@media (min-width: 768px) {
+        .menu-item a {
+            font-size: 1rem;
+        }
+    }
+
+    /*# sourceMappingURL=1.css.map */
+</style>
+
+<body>
+    <div class="textWrapper">
+        <div id="korea" class="textbox"></div>
+        <div id="english" class="textbox"></div>
+    </div>
+    <script type="text/javascript">
+
+        function check(menu, price) {
+        rowItem = "<tr> <td>";
+                rowItem += menu;            // 제품명
+                rowItem += "</td > <td>";
+                rowItem += price;            //
+                rowItem += "</td > <td>"
+                rowItem += 1;
+                rowItem += "</td > ";
+                rowItem += "<td><button class='btn btn-danger'>삭제하기</button></td>  </tr>";
+                $('#modaltable').append(rowItem);
+
+                if (infoArray.length == 0)
+                    infoArray.push({ name: menu, price: price, count: 1 });
+                else {
+                    var check = 0;
+                    for (var i = 0; i < infoArray.length; i++) {
+                        if (infoArray[i].name == menu) {
+                            infoArray[i].count++;
+                            check = 0;
+                        }
+                        else
+                            check++;
+                    }
+                    if (check == infoArray.length)
+                        infoArray.push({ name: menu, price: price, count: 1 });
+                }
+
+                //new!
+                for (var j = 0; j < infoArray.length; j++) {
+                    for (var k = 0; k < infoArray[j].count; k++) {
+                        stackNA.push(infoArray[j].name);
+                        stackPA.push(infoArray[j].price);
+                    }
+                    // 중복허용
+                }
+                //ajax통신을 통해 table에 들어가는 값을 controller로 보낸다
+                $.ajax({
+                    //url 타깃은 kioskcontroller의 Iteminput이라는 메소드
+                    url: '@Url.Action("itemInput","Kiosk")',
+                    //contentType: "application/json",
+                    type: 'POST',
+                    traditional: true,
+                    dataType: "json",
+                    data: { picked: stackNA, price: stackPA },
+                    //위와 같은원리
+                    success: function (result) { },
+                    error: function () { alert('error'); }
+                })
+                stackNA = [];
+                stackPA = [];
+        }
+
+        var message = document.querySelector("#message");
+        var button = document.querySelector("#speech");
+        var korea = document.querySelector("#korea");
+        var english = document.querySelector("#english");
+        var isRecognizing = false;
+
+        if ('SpeechRecognition' in window) {
+            console.log("음성인식을 지원하는 브라우저입니다.")
+        }
+
+        try {
+            var recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
+        } catch (e) {
+            console.error(e);
+        }
+
+        recognition.lang = 'ko-KR';
+        recognition.interimResults = false;
+        recognition.maxAlternatives = 10;
+
+
+
+        function speech_to_text() {
+
+            recognition.start();
+            isRecognizing = true;
+
+            recognition.onstart = function () {
+                console.log("음성인식이 시작 되었습니다. 이제 마이크에 무슨 말이든 하세요.")
+                button.disabled = true;
+            }
+
+
+            recognition.onspeechend = function () {
+                button.disabled = false;
+            }
+
+            recognition.onresult = function (event) {
+                console.log('You said: ', event.results[0][0].transcript);
+                // 결과를 출력
+                var resText = event.results[0][0].transcript;
+                korea.innerHTML = resText;
+
+               if (event.results[0][0].transcript == '디럭스불고기버거 주문') {
+                    check("디럭스 불고기 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '디럭스 불고기 버거 장바구니에 넣어 줘') {
+                    check("디럭스 불고기 버거", "4000");
+               }
+               else if (event.results[0][0].transcript == '디럭스불고기버거') {
+                    check("디럭스 불고기 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '디럭스불고기버거 장바구니로') {
+                    check("디럭스 불고기 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '디럭스불고기버거 주문하고 싶어') {
+                    check("디럭스 불고기 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '디럭스불고기버거 시킬래') {
+                    check("디럭스 불고기 버거", "4000");
+                } //디럭스불고기버거
+
+
+                else if (event.results[0][0].transcript == '불고기 버거 주문') {
+                   check("불고기 버거", "3000");
+               }
+                   else if (event.results[0][0].transcript == '불고기 버거') {
+                   check("불고기 버거", "3000");
+                }
+                else if (event.results[0][0].transcript == '불고기버거 장바구니에 넣어 줘') {
+                   check("불고기 버거", "3000");
+                }
+                else if (event.results[0][0].transcript == '불고기버거 장바구니로') {
+                   check("불고기 버거", "3000");
+                }
+                else if (event.results[0][0].transcript == '불고기 버거 주문하고 싶어') {
+                   check("불고기 버거", "3000");
+                }
+                else if (event.results[0][0].transcript == '불고기버거 시킬래') {
+                   check("불고기 버거", "3000");
+                } //불고기버거
+
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 주문') {
+                   check("스파이시 디럭스 불고기 버거", "4200");
+               }
+                   else if (event.results[0][0].transcript == '스파이시디럭스불고기버거') {
+                   check("스파이시 디럭스 불고기 버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 장바구니에 넣어 줘') {
+                   check("스파이시 디럭스 불고기 버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 장바구니로') {
+                   check("스파이시 디럭스 불고기 버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 주문하고 싶어') {
+                   check("스파이시 디럭스 불고기 버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 시킬래') {
+                   check("스파이시 디럭스 불고기 버거", "4200");
+                } //스파이시디럭스불고기버거
+
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 주문') {
+                   check("스파이시 불고기 버거 ", "3200");
+               }
+                   else if (event.results[0][0].transcript == '스파이시 불고기버거') {
+                   check("스파이시 불고기 버거 ", "3200");
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 장바구니에 넣어 줘') {
+                   check("스파이시 불고기 버거 ", "3200");
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 장바구니로') {
+                   check("스파이시 불고기 버거 ", "3200");
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 주문하고 싶어') {
+                   check("스파이시 불고기 버거 ", "3200");
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 시킬래') {
+                   check("스파이시 불고기 버거 ", "3200");
+               } //스파이시불고기버거
+                     else if (event.results[0][0].transcript == '리셀 버거 주문') {
+                   check("리샐버거", "4200");
+               }
+                    else if (event.results[0][0].transcript == '리셀 버거') {
+                   check("리샐버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '리샐버거 장바구니에 넣어 줘') {
+                   check("리샐버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '리샐버거') {
+                   check("리샐버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '리셀버거') {
+                   check("리샐버거", "4200");
+                }
+                else if (event.results[0][0].transcript == '리셀 버거 시킬래') {
+                   check("리샐버거", "4200");
+                } //리샐버거
+
+                else if (event.results[0][0].transcript == '마살라버거 주문') {
+                   check("마살라 버거", "3800");
+               }
+                    else if (event.results[0][0].transcript == '마살라버거') {
+                   check("마살라 버거", "3800");
+                }
+                else if (event.results[0][0].transcript == '마살라 버거 장바구니에 넣어 줘') {
+                   check("마살라 버거", "3800");
+                }
+                else if (event.results[0][0].transcript == '마살라 버거 장바구니로') {
+                   check("마살라 버거", "3800");
+                }
+                else if (event.results[0][0].transcript == '마살라버거 주문하고 싶어') {
+                   check("마살라 버거", "3800");
+                }
+                else if (event.results[0][0].transcript == '마살라버거 시킬래') {
+                   check("마살라 버거", "3800");
+                } //마살라버거
+
+                else if (event.results[0][0].transcript == '불갈비치킨버거 주문') {
+                   check("불갈비 치킨 버거", "4900");
+               }
+                   else if (event.results[0][0].transcript == '불갈비치킨버거') {
+                   check("불갈비 치킨 버거", "4900");
+                }
+                else if (event.results[0][0].transcript == '불갈비치킨 버거') {
+                   check("불갈비 치킨 버거", "4900");
+                }
+                else if (event.results[0][0].transcript == '불갈비 치킨 버거') {
+                   check("불갈비 치킨 버거", "4900");
+                }
+                else if (event.results[0][0].transcript == '불갈비치킨버거 주문하고 싶어') {
+                   check("불갈비 치킨 버거", "4900");
+                }
+                else if (event.results[0][0].transcript == '불갈비치킨버거 시킬래') {
+                   check("불갈비 치킨 버거", "4900");
+                } //불갈비치킨버거
+
+
+
+                else if (event.results[0][0].transcript == '불싸이버거 주문') {
+                   check("불싸이 버거 ", "3600");
+               }
+               else if (event.results[0][0].transcript == '불싸이버거') {
+                   check("불싸이 버거 ", "3600");
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 장바구니에 넣어 줘') {
+                   check("불싸이 버거 ", "3600");
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 장바구니로') {
+                   check("불싸이 버거 ", "3600");
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 주문하고 싶어') {
+                   check("불싸이 버거 ", "3600");
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 시킬래') {
+                   check("불싸이 버거 ", "3600");
+                } //불싸이버거
+
+                else if (event.results[0][0].transcript == '딥치즈버거') {
+                   check("딥 치즈 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 주문') {
+                   check("딥 치즈 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 장바구니에 넣어 줘') {
+                   check("딥 치즈 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 장바구니로') {
+                   check("딥 치즈 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 주문하고 싶어') {
+                   check("딥 치즈 버거", "4000");
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 시킬래') {
+                   check("딥 치즈 버거", "4000");
+                } //딥치즈버거
+                   
+                else if (event.results[0][0].transcript == '주문 완료') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '이제 계산 할래') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '결제해 줘') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '결제 할래') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '주문 다 했어') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+
+                    //text to sppech
+                text_to_speech(resText + "를 장바구니에 넣었습니다.");
+
+            };
+
+            recognition.onend = function () {
+                button.disabled = false;
+                isRecognizing = false;
+
+            }
+        }
+
+        function stop() {
+            recognition.stop();
+            button.disabled = false;
+            isRecognizing = false;
+        }
+
+
+
+        // Text to speech
+        function text_to_speech(txt) {
+            // Web Speech API - speech synthesis
+            if ('speechSynthesis' in window) {
+                console.log("음성합성을 지원하는  브라우저입니다.");
+            }
+            var msg = new SpeechSynthesisUtterance();
+            var voices = window.speechSynthesis.getVoices();
+            //msg.voice = voices[10]; // 두번째 부터 완전 외국인 발음이 됨. 사용하지 말것.
+            msg.voiceURI = 'native';
+            msg.volume = 20; // 0 to 1
+            msg.rate = 1.3; // 0.1 to 10
+            //msg.pitch = 2; //0 to 2
+            msg.text = txt;
+            msg.lang = 'ko-KR';
+
+            msg.onend = function (e) {
+                if (isRecognizing == false) {
+                    recognition.start();
+                }
+                console.log('Finished in ' + event.elapsedTime + ' seconds.');
+            };
+            window.speechSynthesis.speak(msg);
+        }
+    </script>
+
+    <script type="text/javascript">
+        var infoArray = [];
+        var Pitem = []//new Array();
+        var Pvalue = []//new Array();
+
+
+        //new!
+        var stackNA = [];
+        var stackPA = [];
+        $(document).ready(function () {
+            console.log("readyy");
+
+            if (infoArray.length == 0) {
+                //var table = document.getElementById("modaltable");
+                //var rows = table.rows.length;
+                var table = $('#modaltable');
+                var rows = table.children().children().length;
+
+                //console.log(table.children().children().eq(0).children());
+                //console.log(table.rows[0].cells[0]);
+                // 앞에서 4개 자르고 뒤에서 4개 자르고
+                for (var j = 0; j < rows; j++) {
+                    console.log(j);
+                    var tr = table.children().children().eq(j);
+                    //var tr = table.rows[0].cells[0];
+                    //alert(tr);
+                    var td = tr.children();
+
+                    if (infoArray.length == 0)
+                        infoArray.push({ name: td.eq(0).text(), price: td.eq(1).text(), count: 1 });
+                    else {
+                        var check = 0;
+                        for (var i = 0; i < infoArray.length; i++) {
+                            if (infoArray[i].name == td.eq(0).text()) {
+                                infoArray[i].count++;
+                                check = 0;
+                            }
+                            else
+                                check++;
+                        }
+                        if (check == infoArray.length)
+                            infoArray.push({ name: td.eq(0).text(), price: td.eq(1).text(), count: 1 });
+                    }
+                }// 테이블 0번째 행 1번째 열 값을 menu로
+                // 다음열을 price로 하는 infoArray를 생성한다.
+                // count를 포함한 중복도 생각해주는 배열
+                // for문을 통해 테이블의 마지막 row까지 간다.
+                for (var i = 0; infoArray.length > i; i++) {
+                    console.log(infoArray[i].name + "and " + infoArray[i].count);
+                }
+            }
+            //연동후 값 받아오기
+
+
+            $(".menus").click(function () {
+                //for (int i = 0; i <)
+                rowItem = "<tr> <td>";
+                rowItem += this.attributes.value1.nodeValue;            // 제품명
+                rowItem += "</td > <td>";
+                rowItem += this.attributes.value2.nodeValue;            //
+                rowItem += "</td > <td>"
+                rowItem += 1;
+                rowItem += "</td > ";
+                rowItem += "<td><button class='btn btn-danger'>삭제하기</button></td>  </tr>";
+                $('#modaltable').append(rowItem);
+                rowItem = "</tr>";
+
+                if (infoArray.length == 0)
+                    infoArray.push({ name: this.attributes.value1.nodeValue, price: this.attributes.value2.nodeValue, count: 1 });
+                else {
+                    var check = 0;
+                    for (var i = 0; i < infoArray.length; i++) {
+                        if (infoArray[i].name == this.attributes.value1.nodeValue) {
+                            infoArray[i].count++;
+                            check = 0;
+                        }
+                        else
+                            check++;
+                    }
+                    if (check == infoArray.length)
+                        infoArray.push({ name: this.attributes.value1.nodeValue, price: this.attributes.value2.nodeValue, count: 1 });
+                }
+
+             //new!
+                for (var j = 0; j < infoArray.length; j++) {
+                    for (var k = 0; k < infoArray[j].count; k++) {
+                        stackNA.push(infoArray[j].name);
+                        stackPA.push(infoArray[j].price);
+                    }
+                    // 중복허용
+                }
+                //ajax통신을 통해 table에 들어가는 값을 controller로 보낸다
+                $.ajax({
+                    //url 타깃은 kioskcontroller의 Iteminput이라는 메소드
+                    url: '@Url.Action("itemInput","Kiosk")',
+                    //contentType: "application/json",
+                    type: 'POST',
+                    traditional: true,
+                    dataType: "json",
+                    data: { picked: stackNA, price: stackPA },
+                    //위와 같은원리
+                    success: function (result) { },
+                    error: function () { alert('error'); }
+                })
+                stackNA = [];
+                stackPA = [];
+            });
+
+            $(".btn-warning").click(function () {
+                var table = document.getElementById("modalTable");
+                var index = table.rows.length;
+                for (var i = index; i > 1; i--) {
+                    table.deleteRow(i - 1);
+                }
+                // 기존 값 없애기
+                for (var i = 0; i < infoArray.length;i++) {
+                    rowItem = "<tr> <td>";
+                    rowItem += infoArray[i].name;            // 제품명
+                    rowItem += "</td > <td>";
+                    rowItem += infoArray[i].count;            //
+                    rowItem += "</td > <td>"
+                    rowItem += infoArray[i].price;
+                    rowItem += "</td > ";
+                    rowItem += "<td><button class='btn btn-danger'>삭제하기</button></td>  </tr>";
+                    $('#modalTable').append(rowItem);
+                    rowItem = "</tr>";
+
+                    for (var j = 0; j < infoArray[i].count; j++) {
+                        Pitem.push(infoArray[i].name);
+                        Pvalue.push(infoArray[i].price);
+                    }
+                    //중복에러 제거 05:34 0613
+
+                        //alert(infoArray.length);
+                }
+
+
+
+
+                $.ajax({
+
+                         url: '@Url.Action("itemInput","Kiosk")',
+                        //contentType: "application/json",
+                        type: 'POST',
+                        traditional: true,
+                        dataType:"json",
+                        data: { picked:Pitem, price:Pvalue },
+                        success: function (result) {},
+                    error: function () { alert('error'); }
+
+                    })
+
+
+            });
+            //계산서 변경 코드
+            //1. 장바구니에 넣을때마다 값을 infoArray에 받는다
+            //2. infoArray에 들어가는 값은 값중복확인을 통해 같은 메뉴는 count증가로 변경
+            //3. 해당 변경된 값을 계산서를 열때마다 테이블에 뿌려준다.
+            //ps1 장바구니를 modaltable이라는 id를 사용했으므로 modalTable로 해당 id를 변경했다.
+            //ps2 버튼을 끄면 모든 값을 제거해야하는 것을 추가해야한다.
+            //ps3 ps2는 삭제하기를 통해 값을 제거할떄 같이 만들어줄것, by동훈 (혹 코드 변경하는 사람은 제게 말해주세요. 즉시 고쳐놓겠습니다.)
+
+            $('#modaltable').on('click', '.btn', function () {
+                var tr = $(this).parent().parent();
+                var td = tr.children();
+                var name = td.eq(0).text();                     // 사용하기 좋다.
+                var price = "";                                 //new,delete in model
+                for (var i = 0; infoArray.length > i; i++) {
+                    if (infoArray[i].name == name) {
+                        priceA = infoArray[i].price;            //new, delete in model, 특이점, priceA를 선언 안해도 되네? price라고 잘못했었는데도 됨 <- 아마 인터프리터
+                        if (infoArray[i].count == 1)
+                            infoArray.splice(i, 1);
+                        else
+                            infoArray[i].count--;
+                    }
+                }
+                tr.remove();
+
+                //new, delete in model
+                 $.ajax({
+                         url: '@Url.Action("itemOut","Kiosk")',
+                        //contentType: "application/json",
+                        type: 'POST',
+                        traditional: true,
+                        dataType:"json",
+                     data: { menu:name, price:priceA },
+                        success: function (result) {},
+                    error: function () { alert('error'); }
+                    })
+            });
+            // 삭제하기 구현
+
+            $('#modalTable').on('click', '.btn', function () {
+                var tr = $(this).parent().parent();
+                var td = tr.children();
+                var name = td.eq(0).text();                     // 사용하기 좋다.
+
+                for (var i = 0; infoArray.length > i; i++) {
+                    if (infoArray[i].name == name) {
+                        infoArray.splice(i, 1);
+                        break;
+                    }
+                }
+                tr.remove();
+
+                var asyncTable = $('#modaltable');
+                var ts = asyncTable.children().children();
+                console.log(ts);
+                console.log(ts.length);
+                for (var i = 0; i < ts.length; i++) {
+                    ts.eq(i).remove();
+                }
+                for (var i = 0; i < infoArray.length; i++) {
+                    for (var j = 0; j < infoArray[i].count; j++) {
+                        rowItem = "<tr> <td>";
+                        rowItem += infoArray[i].name;            // 제품명
+                        rowItem += "</td > <td>";
+                        rowItem += infoArray[i].price;            //
+                        rowItem += "</td > <td>"
+                        rowItem += 1;
+                        rowItem += "</td > ";
+                        rowItem += "<td><button class='btn btn-danger'>삭제하기</button></td>  </tr>";
+                        $('#modaltable').append(rowItem);
+                    }
+                }
+                //계산서에서 지워지면 장바구니도 지워지게 하기
+
+                //new, delete in model
+                 $.ajax({
+                         url: '@Url.Action("totalOut","Kiosk")',
+                        //contentType: "application/json",
+                        type: 'POST',
+                        traditional: true,
+                        dataType:"json",
+                     data: { menu:name },
+                        success: function (result) {},
+                    error: function () { alert('error'); }
+                    })
+            });
+            // 사실상 priceA랑 인자는 필요 없었던걸로. 삭제하기 누르면 해당 모든 갯수 다 없어짐
+        });
+        //DH's table, 장바구니에 넣는 코드
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+            crossorigin="anonymous">
+    </script>
+
+
+    <div class="jumbotron text-center mb-0">
+        <img src="~/images/comstouch.png" width="40%" height="30%">
+
+        <h2>사랑과 정성으로!</h2>
+        <button class="voicebtn" type="submit" id="voice_start" onclick="speech_to_text()"><img class="btn-img" src="~/images/voice-recognition.png" style="width:40px;padding:2px; " /></button>
+    </div>
+
+
+    <nav class="menu">
+        <ol>
+            <li class="menu-item active"><a href='@Url.Action("Index" , "Kiosk")'>Home</a></li>
+            <li class="menu-item">
+                <a href="#0">햄버거</a>
+                <ol class="sub-menu">
+                    <li class="menu-item"><a href='@Url.Action("Menu_Hambuger1" , "Kiosk")'>전체메뉴</a>
+                    <li class="menu-item"><a href='@Url.Action("Menu_Hambuger_Chicken1" , "Kiosk")'>치킨</a>
+                    <li class="menu-item"><a href='@Url.Action("Menu_Hambuger_bulgogi" , "Kiosk")'>불고기</a>
+                    <li class="menu-item"><a href='@Url.Action("Menu_Hambuger_ETC" , "Kiosk")'>기타</a>
+                </ol>
+            </li>
+            <li class="menu-item"><a href='@Url.Action("SideMenu" , "Kiosk")'>사이드메뉴</a>
+            <li class="menu-item">
+                <a href='@Url.Action("Menu_beverage" , "Kiosk")'>음료</a>
+            </li>
+        </ol>
+    </nav>
+
+
+
+
+    <div class="mn">
+        <table style="margin:auto;">
+            <tr style="text-align: center">
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg1" type="submit" value1="디럭스 불고기 버거" value2="4000"><img src="~/images/menuimage/buldelux.jpg"></button><br>
+                    디럭스 불고기 버거
+                    <br>
+                    4000원
+                </td>
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg2" type="submit" value1="딥 치즈 버거" value2="4000"><img src="~/images/menuimage/deepcheese.jpg"></button><br>
+                    딥 치즈 버거
+                    <br>
+                    4000원
+                </td>
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg3" type="submit" value1="리샐버거" value2="4200"><img src="~/images/menuimage/resell.jpg"></button><br>
+                    리샐버거
+                    <br>
+                    4200원
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg4" type="submit" value1="마살라 버거" value2="3800"><img src="~/images/menuimage/masalla.jpg"></button><br>
+                    마살라 버거
+                    <br>
+                    3800원
+                </td>
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg5" type="submit" value1="불갈비 치킨 버거" value2="4900"><img src="~/images/menuimage/galbichic.jpg"></button><br>
+                    불갈비 치킨 버거
+                    <br>
+                    4900원
+                </td>
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg6" type="submit" value1="불고기 버거" value2="3000"><img src="~/images/menuimage/bulgogi.jpg"></button><br>
+                    불고기 버거
+                    <br>
+                    3000원
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg7" type="submit" value1="불싸이 버거" value2="3600"><img src="~/images/menuimage/hotcybur.jpg"></button><br>
+                    불싸이 버거
+                    <br>
+                    3600원
+                </td>
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg8" type="submit" value1="스파이시 디럭스 불고기 버거" value2="4200"><img src="~/images/menuimage/spicydeluxbulgogi.jpg"></button><br>
+                    스파이시 디럭스 불고기 버거
+                    <br>
+                    4200원
+                </td>
+                <td>
+                    <br><br>
+                    <button class="btn menus" id="burg9" type="submit" value1="스파이시 불고기 버거" value2="3200"><img src="~/images/menuimage/spicybulgogi.jpg"></button><br>
+                    스파이시 불고기 버거
+                    <br>
+                    3200원
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+    <div class="text-xs-center">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">이전</a></li>
+            <li class="page-item"><a class="page-link" href='@Url.Action("Menu_Hambuger2" , "Kiosk")'>다음</a></li>
+        </ul>
+    </div>
+    <div class="jumbotron text-center" style="background-color: #04B486" margin:"0">
+        <h3 style="color:#ffec85; text-align:left">
+            장바구니
+        </h3>
+        <div class="jumbotron text-center mt-5 mb-0">
+            <table id="modaltable" style="width: 100%; border: 1px solid #949494; color:black">
+                <tbody style="width: 100%; border: 1px solid #949494; ">
+                    @{
+                        if (Bag.Rpicked != null)
+                        {
+                            string[] menu = Bag.Rpicked.Split(",");
+                            string[] price = Bag.Rprice.Split(",");
+                            for (var i = 0; i < menu.Length - 1; i++)
+                            {
+                                <tr>
+                                    <td>@menu[i]</td>
+                                    <td>@price[i]</td>
+                                    <td>1</td>
+                                    <td><button class="btn btn-danger">삭제하기</button></td>
+                                </tr>
+                            }
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+        <br><br>
+        <div>
+            <button type="button" class="btn btn-warning" style="color:white" data-toggle="modal" data-target="#myModal">일반 구매하기</button>
+            <button type="button" class="btn btn-warning" style="color:white"
+                    data-toggle="modal" data-target="#myModal">
+                기프티콘으로 구매하기
+            </button>
+        </div>
+    </div>
+    <div class="jumbotron text-center mt-5 mb-0" margin="0">
+        <h3 class="text-secondary">COM'S TOUCH</h3>
+        <p>
+            Com's touch loves <span class="text-primary">everyone!</span> <br> Designed by <span class="text-primary">Seoyeon</span>
+        </p>
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">주문확인서</h4>
+                    <button type="button" class="btn close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div>
+                        <table id="modalTable" style="width: 100%; border: 1px solid #949494;">
+                            <thead>
+                                <tr style="text-align: center">
+                                    <th>제품명</th>
+                                    <th>수량</th>
+                                    <th>가격</th>
+                                    <th>변경</th>
+                                </tr>
+                            </thead>
+                            <tbody style="width: 100%; border: 1px solid #949494; color:black"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Receipt","Kiosk")'">결제하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

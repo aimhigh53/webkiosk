@@ -1,0 +1,351 @@
+/Users/ins25k/Projects/cSharpPro/cSharpPro/bin/Debug/netcoreapp2.1/cSharpPro.deps.json
+/Users/ins25k/Projects/cSharpPro/cSharpPro/bin/Debug/netcoreapp2.1/cSharpPro.runtimeconfig.json
+/Users/ins25k/Projects/cSharpPro/cSharpPro/bin/Debug/netcoreapp2.1/cSharpPro.runtimeconfig.dev.json
+/Users/ins25k/Projects/cSharpPro/cSharpPro/bin/Debug/netcoreapp2.1/cSharpPro.dll
+/Users/ins25k/Projects/cSharpPro/cSharpPro/bin/Debug/netcoreapp2.1/cSharpPro.pdb
+/Users/ins25k/Projects/cSharpPro/cSharpPro/bin/Debug/netcoreapp2.1/cSharpPro.Views.dll
+/Users/ins25k/Projects/cSharpPro/cSharpPro/bin/Debug/netcoreapp2.1/cSharpPro.Views.pdb
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.csprojAssemblyReference.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.csproj.CoreCompileInputs.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.RazorAssemblyInfo.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.RazorAssemblyInfo.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.AssemblyInfoInputs.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.AssemblyInfo.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.TagHelpers.input.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.TagHelpers.output.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.RazorCoreGenerate.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.RazorTargetAssemblyInfo.cache
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.RazorTargetAssemblyInfo.cs
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.Views.pdb
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.dll
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.pdb
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/cSharpPro.csproj.CopyComplete
+/Users/ins25k/Projects/cSharpPro/cSharpPro/obj/Debug/netcoreapp2.1/Razor/Views/Kiosk/Index.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.deps.json
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.json
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.dev.json
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.dll
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csprojAssemblyReference.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CoreCompileInputs.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfoInputs.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfo.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.input.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.output.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorCoreGenerate.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Index.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cache
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CopyComplete
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\TakeOut.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\SideMenu.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_beverage.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger1.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger2.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger3.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken2.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_ETC.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hamburger_Chicken1.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Receipt.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Wait_Number.g.cshtml.cs
+C:\Users\son24\Source\Repos\cSharpProject5\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_bulgogi.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.dll
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.pdb
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.deps.json
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.json
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.dev.json
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.dll
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.pdb
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.dll
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csprojAssemblyReference.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CoreCompileInputs.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfoInputs.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfo.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.input.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.output.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorCoreGenerate.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Index.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_beverage.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Receipt.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\TakeOut.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cache
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CopyComplete
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger1.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger2.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger3.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_bulgogi.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken2.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_ETC.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\SideMenu.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Wait_Number.g.cshtml.cs
+D:\GItHub\fork\from진현\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken1.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.deps.json
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.json
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.dev.json
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.dll
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csprojAssemblyReference.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CoreCompileInputs.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfoInputs.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfo.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.input.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.output.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorCoreGenerate.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Index.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_beverage.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger1.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger2.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger3.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_bulgogi.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken1.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken2.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_ETC.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Receipt.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\SideMenu.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\TakeOut.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Wait_Number.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cache
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cs
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\ins25k\Desktop\비둘기\from진현 (3)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CopyComplete
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.deps.json
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.json
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.dev.json
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.dll
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.pdb
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.dll
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csprojAssemblyReference.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CoreCompileInputs.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfoInputs.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfo.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.input.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.output.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorCoreGenerate.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Index.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_beverage.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger1.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger2.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger3.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_bulgogi.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken1.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken2.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_ETC.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Receipt.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\SideMenu.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\TakeOut.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Wait_Number.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cache
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cs
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.dll
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.pdb
+D:\GItHub\fork\from인석\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CopyComplete
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.deps.json
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.json
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.dev.json
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.dll
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.pdb
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.dll
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csprojAssemblyReference.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CoreCompileInputs.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfoInputs.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfo.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.input.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.output.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorCoreGenerate.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Index.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_beverage.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger1.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger2.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger3.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_bulgogi.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken1.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken2.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_ETC.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Receipt.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\SideMenu.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\TakeOut.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Wait_Number.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cache
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cs
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.dll
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.pdb
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CopyComplete
+D:\GItHub\fork\0611\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Barcode.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.deps.json
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.json
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.dev.json
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.dll
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csprojAssemblyReference.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CoreCompileInputs.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfoInputs.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfo.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.input.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.output.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorCoreGenerate.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Barcode.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Index.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_beverage.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger1.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger2.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger3.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_bulgogi.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken1.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken2.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_ETC.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Receipt.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\SideMenu.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\TakeOut.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Wait_Number.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cache
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cs
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\ins25k\Desktop\0611 (4)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CopyComplete
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csprojAssemblyReference.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CoreCompileInputs.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorAssemblyInfo.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfoInputs.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.AssemblyInfo.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.input.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.TagHelpers.output.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorCoreGenerate.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Barcode.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Index.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_beverage.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger1.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger2.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger3.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_bulgogi.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken1.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_Chicken2.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Menu_Hambuger_ETC.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Receipt.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\SideMenu.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\TakeOut.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Kiosk\Wait_Number.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cache
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.RazorTargetAssemblyInfo.cs
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.deps.json
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.json
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.runtimeconfig.dev.json
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.dll
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.pdb
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.dll
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\bin\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.Views.pdb
+C:\Users\ins25k\Desktop\0611 (4) (2)\cSharpPro\cSharpPro\obj\Debug\netcoreapp2.1\cSharpPro.csproj.CopyComplete

@@ -1,0 +1,864 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>voice.html</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- JS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+          media="all">
+    <link rel="stylesheet" type="text/css" href="bs-button-style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/carousel.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="../js/carousel.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+</head>
+
+<style>
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        body {
+            margin-left: 20%;
+            margin-right: 20%;
+            font-family: "배달의민족 한나는 열한살";
+        }
+    }
+
+
+
+    .container {
+        height: 1200px;
+    }
+
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .btn-border {
+            border-radius: 30px;
+            border: 50px;
+            height: 70px;
+            width: 300px;
+            font-size: 30px;
+        }
+    }
+
+
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        .mainbtn {
+            height: 1200px;
+        }
+    }
+
+
+
+    .normal {
+        float: left;
+        padding: 500px;
+    }
+
+    .senior {
+        float: right;
+        padding: 500px;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 1000px;
+    }
+
+    h2 {
+        color: orange;
+    }
+
+    @@media only screen and(min-device-width: 768px) and (max-device-width:1024px) {
+        #app-cover {
+            display: table;
+            width: 600px;
+            margin: 80px auto;
+            counter-reset: button-counter;
+        }
+    }
+
+    #voice_start, #voice_stop {
+        float: right;
+    }
+</style>
+
+<body>
+    <div class="textWrapper">
+        <div id="korea" class="textbox"></div>
+        <div id="english" class="textbox"></div>
+    </div>
+
+    <script type="text/javascript">
+
+        var message = document.querySelector("#message");
+        var button = document.querySelector("#speech");
+        var korea = document.querySelector("#korea");
+        var english = document.querySelector("#english");
+        var isRecognizing = false;
+
+        if ('SpeechRecognition' in window) {
+            console.log("음성인식을 지원하는 브라우저입니다.")
+        }
+
+        try {
+            var recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
+        } catch (e) {
+            console.error(e);
+        }
+
+        recognition.lang = 'ko-KR';
+        recognition.interimResults = false;
+        recognition.maxAlternatives = 10;
+
+
+
+        function speech_to_text() {
+
+            recognition.start();
+            isRecognizing = true;
+
+            recognition.onstart = function () {
+                console.log("음성인식이 시작 되었습니다. 이제 마이크에 무슨 말이든 하세요.")
+                message.innerHTML = "음성인식 시작...";
+                button.innerHTML = "Listening...";
+                button.disabled = true;
+            }
+
+
+            recognition.onspeechend = function () {
+                message.innerHTML = "버튼을 누르고 아무말이나 하세요.";
+                button.disabled = false;
+                button.innerHTML = "Start STT";
+            }
+
+            recognition.onresult = function (event) {
+                console.log('You said: ', event.results[0][0].transcript);
+                // 결과를 출력
+                var resText = event.results[0][0].transcript;
+                korea.innerHTML = resText;
+                if (event.results[0][0].transcript == '메뉴좀 보여줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '메뉴 좀 보여 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '메뉴') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '햄버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '주문 할래요') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '메뉴판') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '메뉴가 어디 있지') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '메뉴 보여 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '주문 할래') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                } //메뉴판 화면으로 이동
+
+                else if (event.results[0][0].transcript == '디럭스불고기버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '디럭스 불고기 버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '디럭스불고기버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '디럭스불고기버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '디럭스불고기버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                } //디럭스불고기버거
+
+
+                else if (event.results[0][0].transcript == '불고기 버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불고기버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불고기버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불고기 버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불고기버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                } //불고기버거
+
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시디럭스불고기버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                } //스파이시디럭스불고기버거
+
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '스파이시 불고기버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_bulgogi", "Kiosk")';
+                } //스파이시불고기버거
+
+                else if (event.results[0][0].transcript == '리셀 버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '리샐버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '리샐버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '리셀 버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '리셀 버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //리샐버거
+
+                else if (event.results[0][0].transcript == '마살라버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '마살라 버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '마살라 버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '마살라버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '마살라버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //마살라버거
+
+                else if (event.results[0][0].transcript == '불갈비치킨버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불갈비치킨버거 장바구니에 넣을래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불갈비치킨버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불갈비치킨버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불갈비치킨버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //불갈비치킨버거
+
+
+
+                else if (event.results[0][0].transcript == '불싸이버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '불싸이버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //불싸이버거
+
+                else if (event.results[0][0].transcript == '싸이버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '싸이버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '싸이버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '싸이버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '싸이버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //싸이버거
+
+                else if (event.results[0][0].transcript == '언빌리버블 버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '언빌리버블 버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '언빌리버블 버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '언빌리버블 버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '언빌리버블 버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //언빌리버블버거
+
+                else if (event.results[0][0].transcript == '인크레더블 버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '인크레더블 버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '인크레더블 버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '인크레더블 버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '인크레더블 버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //인크레더블버거
+
+                else if (event.results[0][0].transcript == '치킨 커틀렛버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치킨 커틀렛버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치킨 커틀렛버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치킨 커틀렛버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치킨 커틀렛버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //치킨커틀렛버거
+
+                else if (event.results[0][0].transcript == '할라피뇨통가슴살버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통가슴살버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통가슴살버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통가슴살버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통가슴살버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken1", "Kiosk")';
+                } //할라피뇨통가슴살버거
+
+
+                else if (event.results[0][0].transcript == '할라피뇨통살버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통살버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통살버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통살버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '할라피뇨통살버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                } //할라피뇨통살버거
+
+
+                else if (event.results[0][0].transcript == '화이트갈릭버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '화이트갈릭버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '화이트갈릭버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '화이트갈릭버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '화이트갈릭버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                } //화이트갈릭버거
+
+
+                else if (event.results[0][0].transcript == '휠렛버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '휠렛버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '휠렛버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '휠렛버거 주문 하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '휠렛버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                } //휠렛버거
+
+
+
+                else if (event.results[0][0].transcript == '딥치즈버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '딥치즈버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                } //딥치즈버거
+
+
+                else if (event.results[0][0].transcript == '치즈베이컨버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈베이컨버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈베이컨버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈베이컨버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈베이컨버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_Chicken2", "Kiosk")';
+                } //치즈베이컨버거
+
+                else if (event.results[0][0].transcript == '통새우 버거 주문') {
+                    window.location = '@Url.Action("Menu_Hambuger_ETC", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '통새우 버거 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_Hambuger_ETC", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '통새우 버거 장바구니로') {
+                    window.location = '@Url.Action("Menu_Hambuger_ETC", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '통새우 버거 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_Hambuger_ETC", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '통새우 버거 시킬래') {
+                    window.location = '@Url.Action("Menu_Hambuger_ETC", "Kiosk")';
+                } //통새우버거
+
+                else if (event.results[0][0].transcript == '그린티라떼 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '그린티라떼 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '그린티라떼 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '그린티라떼 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '그린티라떼 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //그린티라떼
+
+
+
+                else if (event.results[0][0].transcript == '레몬 딸기 스무디 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬 딸기 스무디 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬 딸기 스무디 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬 딸기 스무디 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬 딸기 스무디 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //레몬딸기스무디
+
+                else if (event.results[0][0].transcript == '레몬에이드 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬에이드 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬에이드 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬에이드 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '레몬에이드 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //레몬에이드
+
+                else if (event.results[0][0].transcript == '망고 스무디 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '망고 스무디 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '망고 스무디 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '망고 스무디 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '망고 스무디 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //망고스무디
+
+                else if (event.results[0][0].transcript == '복숭아 망고 스무디 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '복숭아 망고 스무디 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '복숭아 망고 스무디 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '복숭아 망고 스무디 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '복숭아 망고 스무디 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //복숭아망고스무디
+
+                else if (event.results[0][0].transcript == '아메리카노 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '아메리카노 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '아메리카노 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '아메리카노 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '아메리카노 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //아메리카노
+
+                else if (event.results[0][0].transcript == '오렌지 주스 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '오렌지 주스 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '오렌지 주스 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '오렌지 주스 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '오렌지 주스 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //오렌지주스
+
+                else if (event.results[0][0].transcript == '콜라 주문') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '콜라 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '콜라 장바구니로') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '콜라 주문하고 싶어') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '콜라 시킬래') {
+                    window.location = '@Url.Action("Menu_beverage", "Kiosk")';
+                } //콜라
+
+
+
+                else if (event.results[0][0].transcript == '고구마치즈볼 주문') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '고구마 치즈 불 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '고구마치즈볼 장바구니로') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '고구마치즈볼 주문하고 싶어') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '고구마치즈볼 시킬래') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                } //고구마 치즈볼
+
+                else if (event.results[0][0].transcript == '라이스 치킨 너겟 주문') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '라이스치킨너겟 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '라이스치킨너겟 장바구니로') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '라이스치킨너겟 주문하고 싶어') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '라이스 치킨 너겟 시킬래') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                } //라이스치킨너겟
+
+
+                else if (event.results[0][0].transcript == '어니언치즈감자 주문') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '어니언치즈감자 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '어니언치즈감자 장바구니로') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '어니언치즈감자 주문하고 싶어') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '어니언치즈감자 시킬래') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                } //어니언치즈감자
+
+                else if (event.results[0][0].transcript == '치즈스틱 주문') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈스틱 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈 스틱 장바구니로') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈스틱 주문하고 싶어') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '치즈스틱 시킬래') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                } //치즈스틱
+
+
+                else if (event.results[0][0].transcript == '케이준 양념감자 주문') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '케이준 양념감자 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '케이준 양념감자 장바구니로') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '케이준 양념감자 주문하고 싶어') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '케이준 양념감자 시킬래') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                } //케이준양념감자
+
+                else if (event.results[0][0].transcript == '팝콘 만두 주문') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘 만두 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘만두 장바구니로') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘만두 주문하고 싶어') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘 만두 시킬래') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                } //팝콘만두
+
+                else if (event.results[0][0].transcript == '팝콘 볼 주문') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘 볼 장바구니에 넣어 줘') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘 볼 장바구니로') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘 볼 주문하고 싶어') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '팝콘 볼 시킬래') {
+                    window.location = '@Url.Action("SideMenu", "Kiosk")';
+                } //팝콘볼
+
+
+                else if (event.results[0][0].transcript == '주문 완료') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '이제 계산 할래') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '결제해 줘') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '결제 할래') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                }
+                else if (event.results[0][0].transcript == '주문 다 했어') {
+                    window.location = '@Url.Action("Receipt", "Kiosk")';
+                } //주문완료
+
+
+                //text to sppech
+                text_to_speech(resText);
+
+            };
+
+            recognition.onend = function () {
+                button.disabled = false;
+                button.innerHTML = "Start STT";
+                isRecognizing = false;
+
+            }
+        }
+
+        function stop() {
+            recognition.stop();
+            message.innerHTML = "버튼을 누르고 아무말이나 하세요.";
+            button.disabled = false;
+            button.innerHTML = "Start STT";
+            isRecognizing = false;
+        }
+
+
+
+        // Text to speech
+        function text_to_speech(txt) {
+            // Web Speech API - speech synthesis
+            if ('speechSynthesis' in window) {
+                console.log("음성합성을 지원하는  브라우저입니다.");
+            }
+            var msg = new SpeechSynthesisUtterance();
+            var voices = window.speechSynthesis.getVoices();
+            //msg.voice = voices[10]; // 두번째 부터 완전 외국인 발음이 됨. 사용하지 말것.
+            msg.voiceURI = 'native';
+            msg.volume = 20; // 0 to 1
+            msg.rate = 1.3; // 0.1 to 10
+            //msg.pitch = 2; //0 to 2
+            msg.text = txt;
+            msg.lang = 'ko-KR';
+
+            msg.onend = function (e) {
+                if (isRecognizing == false) {
+                    recognition.start();
+                }
+                console.log('Finished in ' + event.elapsedTime + ' seconds.');
+            };
+            window.speechSynthesis.speak(msg);
+        }
+
+
+    </script>
+    <!-- header -->
+    <div class="jumbotron text-center mb-0">
+        <img src="~/images/comstouch.png" width="40%" height="30%">
+
+        <h2>사랑과 정성으로!</h2>
+
+        <button type="button" class="btn btn-outline-primary" id="voice_start" onclick="speech_to_text()">start</button>
+        <button type="button" class="btn btn-outline-danger" id="voice_stop" onclick="stop()">Stop</button>
+
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/images/event1.png" alt="adv1" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/event2.png" alt="adv2" width="1100" height="500">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <div class="row ">
+        <div class="col-6, mx-auto" style="margin-top: 50px; margin-bottom: 30px;">
+            <button id="normalbtn" type="button" onclick="location.href='@Url.Action("TakeOut","Kiosk")'"
+                    class="btn btn-success btn-border btn-block">
+                일반 주문하기
+            </button>
+        </div>
+        <div class="col-6, mx-auto" style="margin-top: 50px; margin-bottom: 30px;">
+            <button id="seniorbtn" type="button" onclick="location.href='@Url.Action("TakeOut","Kiosk")'"
+                    class="btn btn-success btn-border btn-block">
+                어르신용 주문하기
+            </button>
+        </div>
+        <div class="col-6, mx-auto" style="margin-top: 50px; margin-bottom: 30px;">
+            <button id="seniorbtn" type="button" onclick="location.href='@Url.Action("Barcode","Kiosk")'"
+                    class="btn btn-success btn-border btn-block">
+                기프티콘 사용
+            </button>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="jumbotron text-center mt-5 mb-0">
+        <h3 class="text-secondary">COM'S TOUCH</h3>
+        <p>
+            Com's touch loves <span class="text-primary">everyone!</span><br> Designed by <span class="text-primary">TeamCode4</span>
+        </p>
+    </div>
+</body>
+</html>
